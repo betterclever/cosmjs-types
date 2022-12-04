@@ -16,19 +16,8 @@
     "access": "public"
   },
   "files": [
-    "confio/",
-    "cosmos/",
-    "cosmos_proto/",
-    "cosmwasm/",
-    "gogoproto/",
-    "google/",
-    "ibc/",
-    "tendermint/",
-    "/helpers.*",
-    "/index.*",
-    "*.md",
-    "!wasmd-*/**/*.md",
-    "!cosmos-sdk-*/**/*.md"
+    "build/**",
+    "yarn.lock"
   ],
   "scripts": {
     "format": "prettier --write --loglevel warn \"./src/**/*.ts\"",
